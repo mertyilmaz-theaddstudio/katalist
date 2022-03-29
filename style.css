@@ -298,16 +298,16 @@ a:hover {
 }
 
 .border-lr {
-    border-left: 1px solid var(--yellow-color);
-    border-right: 1px solid var(--yellow-color);
+    border-left: 2px solid var(--yellow-color);
+    border-right: 2px solid var(--yellow-color);
 }
 
 .border-b {
-    border-bottom: 1px solid var(--yellow-color);
+    border-bottom: 2px solid var(--yellow-color);
 }
 
 .border-t{
-    border-top: 1px solid var(--yellow-color);
+    border-top: 2px solid var(--yellow-color);
 }
 
 /* Main End */
@@ -1016,6 +1016,10 @@ h5 {
     .desc-container {
         margin-left: 30px;
         margin-right: 30px;
+    }
+
+    .desc-container>p {
+        font-size: 13px;
     }
 
     .story-title-container h1 {
