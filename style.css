@@ -843,6 +843,9 @@ h5 {
 .topic{
     font-size: larger;
 }
+.collab-special{
+    font-size: 25px;
+}
 /* Who End */
 @media only screen and (max-height: 1680px) {
     .container-fluid {
