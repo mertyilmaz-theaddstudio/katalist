@@ -840,6 +840,9 @@ h5 {
     justify-content: center;
 }
 
+.topic{
+    font-size: larger;
+}
 /* Who End */
 @media only screen and (max-height: 1680px) {
     .container-fluid {
