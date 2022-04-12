@@ -334,11 +334,12 @@ a:hover {
     display: flex;
     flex-wrap: nowrap;
     background-color: #999398;
+    justify-content: flex-end
 }
 
 .flex-container .box {
     background-color: #FCE7D0;
-    width: 50%;
+    width: 20%;
     margin: 2px 2px 2px 0px;
     text-align: center;
     justify-content: center;
@@ -401,6 +402,7 @@ h6 {
     margin-left: 30px;
     margin-bottom: -30px;
     margin-top: -50px;
+    font-size: small;
 }
 
 .hr1 {
@@ -971,6 +973,13 @@ h5 {
     .title-container {
         margin-left: 0;
     }
+    .hr1 {
+        margin-right: 130px;
+    }
+
+    .hr2 {
+        margin-right: 185px;
+    }
 
 }
 
@@ -988,11 +997,11 @@ h5 {
     }
 
     .hr1 {
-        margin-right: 195px;
+        margin-right: 130px;
     }
 
     .hr2 {
-        margin-right: 270px;
+        margin-right: 185px;
     }
 }
 
@@ -1032,10 +1041,18 @@ h5 {
 
     .flex-container {
         flex-wrap: wrap;
+        
     }
 
     .flex-container .box {
         width: calc(50% - 2px);
+    }
+    .hr1 {
+        margin-right: 220px;
+    }
+
+    .hr2 {
+        margin-right: 280px;
     }
 }
 
